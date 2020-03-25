@@ -29,7 +29,7 @@ OS: Ubuntu 16.04 LTS
 
 All simulations load the same set of weights (ee/ei/ie/ii.wmat which are expected to be located in the Benchmark folders) and therefore allow a direct simulation comparison. This benchmark simulation was inspired by the benchmarks used for the [Auryn](https://github.com/fzenke/auryn) simulator. See their github repository for further details.
 
-The installed python (conda) environment details are located in the conda\_req.txt file.
+The installed python (conda) environment details and instructions for installing are located in the conda\_req.txt file.
 
 Results of a simulation of the VogelsAbbott Benchmark with synaptic delays either all set to 0.1ms, or 0.8ms (with a simulation timestep of 0.1ms in both cases).
 ![VogelsAbbott Speed Comparison Figure](Benchmarks/VogelsAbbott/_results/VASpeedComparison.png)

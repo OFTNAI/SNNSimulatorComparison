@@ -1,4 +1,6 @@
 # This file may be used to create an environment using:
+# $ conda config --append channels conda-forge
+# $ conda config --append channels anaconda
 # $ conda create --name <env> --file <this file>
 # platform: linux-64
 bsddb=1.0=py27_1
